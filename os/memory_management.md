@@ -17,3 +17,9 @@ If memory demand is too high, the memory of some processes is transferred to dis
 Swapping raises two problems:
 * **External fragmentation**: Many small holes appear in memory. If 1GB of space is spread across two (non consecutive) holes and a new process requires 1GB, the occupied space in between needs to be moved.
 * **Internal fragmentation**: wtf is this
+
+Strategies for choosing holes of memory:
+* **First-fit**: Start from beginning and use first available hole
+* **Rotating first-fit**: Like first-fit but start from last assigned part of memory
+* **Best-fit**: Find the smallest usable space
+* **Buddy system**: Memory is split into a binary tree. The capacity of a node in the tree is the sum of its children.
