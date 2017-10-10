@@ -23,3 +23,8 @@ Strategies for choosing holes of memory:
 * **Rotating first-fit**: Like first-fit but start from last assigned part of memory
 * **Best-fit**: Find the smallest usable space
 * **Buddy system**: Memory is split into a binary tree. The capacity of a node in the tree is the sum of its children.
+
+## Paging
+Memory is split into segments of the same size, avoiding external fragmentation. The translation between logical addresses and physical addresses is done via a page table. De-fragmentation is simpler as segments can be moved around since they are all the same size (page table is updated to point to new physical address). By default, one segment is assigned to one process.
+
+![Paging structure](paging.jpg)
