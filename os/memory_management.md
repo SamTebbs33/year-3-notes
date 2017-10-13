@@ -56,3 +56,8 @@ If a process lacks pages that it uses constantly, the page fault rate will be hi
 Solutions:
 * **Working-set model**: Define the working set as a set of pages used in the most recent change in page references. Keep only the working set in memory. Achieves high CPU-utilisation and prevents thrashing.
 * **Page-fault frequency**: Give additional pages to processes with high page fault frequency, and fewer pages to processes with low page fault frequency.
+
+## Kernel memory
+There are separate logical addresses for the kernel and for user memory.
+
+In a 32-bit arch, the kernel space addresses are the upper 1GB and the user space addresses are the lower 3GB. Kernel memory is protected against access by user processes.
