@@ -116,15 +116,24 @@ L -> a L
 L -> \e
 ```
 
-Initial state: `<S, a a b>`
-
-1. Predict `<L b, a a b>` as `a € FIRST(L b)`
-2. Predict `<a L b, a a b>` as `a € FIRST(a L)`
-3. Match `<L b, a b>`
-
-Full example:
 ![LL(1) example](LL1_example.png)
 
 For some grammars there may be:
-* **FIRST/FIRST conflicts**
+* **FIRST/FIRST conflicts**: Multiple cases where, for example, `a` is the first symbol of rule `A`
+  ```
+  A -> a b
+  A -> a c
+  ```
+  Here, the parser can't choose between the `A` definitions based on FIRST.
+
+  Can be solved by factoring the grammar to
+  ```
+  A -> a B
+  B -> b
+  B -> c
+  ```
+  Works as the decision is postponed until after the `a` is read
 * **FIRST/FOLLOW conflicts**
+
+## Computing FIRST and FOLLOW
+See from slide 151  [here](http://www.cs.bham.ac.uk/~hxt/2017/compilers/LL-LR-parsing.pdf)
