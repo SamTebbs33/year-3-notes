@@ -28,3 +28,31 @@ Strategies for choosing holes of memory:
 Memory is split into segments of the same size, avoiding external fragmentation. The translation between logical addresses and physical addresses is done via a page table. De-fragmentation is simpler as segments can be moved around since they are all the same size (page table is updated to point to new physical address). By default, one segment is assigned to one process.
 
 ![Paging structure](paging.jpg)
+
+## Segmentation
+Dividing memory according to its usage by programs:
+* **Data**: data used by program, mutable, different for each instance
+* **Code**: immutable and same for each instance of the program
+* **Symbol table**: immutable, same for each instance and only used for debugging
+
+## Demand paging
+Virtual memory implemented as demand paging: memory divided into units of the same length (pages), together with an invalid/valid bit.
+
+Decisions to be made:
+* Which process to swap out (move move process' memory to disk while halting the process)
+* Which pages to move to disk when an additional page is required (done by pager)
+
+Minimising the rate of page faults (when a page has to be fetched from memory) is crucial.
+
+### Page replacement algorithms
+* **FIFO**: Easy to implement but doesn't take locality into account. An increase in number pages can cause increase in rate of page faults (Belady's anomaly)
+* **Optimal algorithm**: Select page which will be re-used at the latest time (or not at all). Not implementable (lol) but good for comparisons
+* **Least-recently used**: Replace page which has been unused for the longest time
+* **Second-chance algorithm**: Hardware sets reference bit to 1 when page is referenced. Now use the FIFO algorithm, but skips pages with reference bit 1, resetting it to 0.
+
+## Thrashing
+If a process lacks pages that it uses constantly, the page fault rate will be high. The CPU throughput decreases dramatically and performance suffers.
+
+Solutions:
+* **Working-set model**: Define the working set as a set of pages used in the most recent change in page references. Keep only the working set in memory. Achieves high CPU-utilisation and prevents thrashing.
+* **Page-fault frequency**: Give additional pages to processes with high page fault frequency, and fewer pages to processes with low page fault frequency.
