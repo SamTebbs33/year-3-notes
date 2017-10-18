@@ -64,7 +64,7 @@ Originally a bus topology: single cable with computers connected to it. The earl
 * Transceivers add cost and complexity
 * Performance issues in background
 
-### 10baseT
+### 10BaseT
 Modern ethernet cables (twisted pair).
 Links a machine to a hub
 
@@ -72,7 +72,7 @@ Links a machine to a hub
 
 ![Repeater](repeater.png)
 
-* **Bridge**: Receives, buffers and transmits frames, so collisions are proogated.
+* **Bridge**: Receives, buffers and transmits frames, so collisions are propagated
 
 ![Dumb bridge](bridge.png)
 
@@ -81,3 +81,5 @@ Links a machine to a hub
   ![Filtering bridges](filtering_bridge.png)
 
 * **Hubs**: Are repeaters
+* **Switch**: A set of learning bridges. Worsen latency
+* **Cut-through switches**: Wait for ethernet header, then start streaming bytes straight away, instead of waiting for entire packet like a normal switch. Less latency impact but propagates broken packets
