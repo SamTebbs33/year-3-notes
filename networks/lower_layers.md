@@ -97,3 +97,11 @@ When the buffer is full, packets are dropped as they can't be put anywhere. To m
 
 ![Random early drop graph](random_early_drop.png)
 
+## Token Ring/Bus
+See slide 40 [here](https://canvas.bham.ac.uk/courses/27275/files?preview=4298343)
+
+## Slotted Rings
+See slide 47 [here](https://canvas.bham.ac.uk/courses/27275/files?preview=4298343)
+
+## ATM
+See slide 47 [here](https://canvas.bham.ac.uk/courses/27275/files?preview=4298343)
