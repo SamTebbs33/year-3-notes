@@ -61,3 +61,8 @@ Solutions:
 There are separate logical addresses for the kernel and for user memory.
 
 In a 32-bit arch, the kernel space addresses are the upper 1GB and the user space addresses are the lower 3GB. Kernel memory is protected against access by user processes.
+
+In a 64-bit arch, the kernel has the upper half of addresses and the user the lower half.
+
+## Page caches
+It is common to have repeated cycles of allocation and freeing the same kind of objects. There can be a pool of pages used as a cache for these objects (slab-cache). Maybe they
