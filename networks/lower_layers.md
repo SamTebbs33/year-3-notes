@@ -83,3 +83,17 @@ Links a machine to a hub
 * **Hubs**: Are repeaters
 * **Switch**: A set of learning bridges. Worsen latency
 * **Cut-through switches**: Wait for ethernet header, then start streaming bytes straight away, instead of waiting for entire packet like a normal switch. Less latency impact but propagates broken packets
+
+### 100BaseT
+10x the speed of 10BaseT, made possible switching. The increase in speed worsens collisions (prevented by full duplex).
+
+#### Full duplex
+Traffic goes in and out without colliding as each direction is a separate collision domain.
+
+Large buffers internally deal with congestion, preventing collisions.
+
+##### Random early drop
+When the buffer is full, packets are dropped as they can't be put anywhere. To mitigate dropping 100% of the packets that can't be accommodated, the switch will start to drop packets as the buffer fills, with the chance of dropping increasing as it fills. The stations detect the dropped packets and slow down transmission.
+
+![Random early drop graph](random_early_drop.png)
+
