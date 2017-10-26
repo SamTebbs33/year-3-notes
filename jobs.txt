@@ -1,7 +1,0 @@
-| Company | Positions | Site |
-| ------- | --------- | ---- |
-| Amazon | AWS, Devices, Video, Operations Software Dev | amazon.jobs |
-| Atos | Software Development | atos.net/en-gb/united-kingdom/careers-uk/internship-uk |
-| Oracle | ? | oracle.com/goto/careerstart |
-
-Bloodhound challenge: https://tiny.cc/OracleInternshipComp
