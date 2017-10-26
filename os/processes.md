@@ -1,18 +1,14 @@
 # Processes
 
-### OpSys Today
-
-There are a huge number of processes that can be potentially run on a modern operating system, but not all of them are run concurrently. There are clearly far, far more processes in use than processor cores, so the processors time must be effectively managed.
-
-### Concept
+## Concept
 
 The OS executes a variety of programs, including both batch jobs and time-shared systems.
 
-* Process - A program in execution, process execution must progress in sequential fashion.
+* Process - A program in execution, process execution must progress sequentially.
 
 A process includes the program (text) and a program counter (PC). It also utilises a stack and a data section.
 
-### Process States
+## Process States
 
 To start a new process, a system process calls fork() and allocates resources to the new process, giving it everything it needs to run other than the CPU. There are often more processes ready to run than the CPU is ready to accept. A process may then be accepted to the CPU. From the CPU, a process can be terminated, wait or be returned to the ready state. A waiting process will sit until it receives an interrupt to return to the ready state. If a process has used more than it's fair share of time, it will be returned to the ready state to allow another process to run.
 
