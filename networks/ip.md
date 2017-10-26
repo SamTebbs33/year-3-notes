@@ -12,7 +12,10 @@ Each packet is 4 bytes long, the Options bits are optional (surprise eh), and th
 IP addresses are written as 4 decimal numbers, each separated by dots. Typically aren't zero-padded, i.e 192.168.1.1 rather than 192.168.001.001. Hex would have been better but came along later.
 
 ## Routing
-All IP addresses identify a network (leftmost part of address) and the host on that network (rest of address). A router ignores the host on the network part for all non-local addresses, looks up the network in a routing table and chooses which interface to send the packet through.
+All IP addresses identify a network (leftmost part of address) and the host on that network (rest of address).
+If the address host refers to this router, process the packet and send it to the correct device, else lookup the network in a routing table and choose an interface believed to be closer to the destination address and send it.
+
+Routing loops can occur (router A thinks a packet should go to router B, who thinks it should go to router A). This can be somewhat mitigated by introducing a time-to-live field (TTL) to the packet, which is decremented each time it gets to a router. If it arrives with a TTL of 0, then the packet is thrown away. The packet sender should initialise the TTL with a sensible value representing the expected maximum number of routing jumps. A typical value for the modern internet is something from 30-60.
 
 ## Classful addresses
 If the address starts with 0, the first 8 bits identify the network and the remaining 24 identify the host on the network.
@@ -35,3 +38,35 @@ Slide 19: https://canvas.bham.ac.uk/courses/27275/files?preview=4298342
 
 ## IPv6
 Slide 28: https://canvas.bham.ac.uk/courses/27275/files?preview=4298342
+
+## IP on ethernet
+On ethernet (or other point to multi-point), how do we find the MAC address of the next jump?
+
+### ARP (Address Resolution Protocol)
+IPv4 uses ARP
+* Simple, old and very insecure
+* The ARP sender asks who has a particular IP number
+* A machine can claim to have that IP and pose as a router to sniff all traffic
+
+IPv6 uses the Neighbour Discovery Protocol
+
+## IP over point-to-point
+Packets are just send to the other side of the link as there's only one possible receiver
+
+## IP address allocation
+Small allocations come from the ISP and belong to the ISP. Larger "provider independent" allocations can be obtained from regional registries (although you need to make a very good case for it). When you change ISP you'll need to change your public IPs.
+
+## Local IP allocation
+
+### Static allocation
+An end point is given an IP which is then written to a config file/memory. Each time a device boots, it gets that IP even if it clashes with another device on the network. The machine might notice that it is a duplicate but there is very little protection.
+
+Essential for routers and infrastructure devices that need to be up in the early stages of power failure. Often used for servers that have fixed addresses.
+
+### Bootp
+Device broadcasts its ethernet address and gets an IP number back from some "bootp server". Normally configured with a large table statically mapping MAC to IP.
+
+There's no way of reclaiming addresses.
+
+### DHCP (Dynamic Host Configuration Protocol)
+Provides a means to lease a temporary IP number for some duration. Can be used to inform devices of statically allocated IP numbers
