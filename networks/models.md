@@ -1,10 +1,10 @@
 # OSI
 Open Systems Interconnect. Failed project to build a standard suite.
-![OSI Model](osi_model.png)
+![OSI Model](img/osi_model.png)
 
 # DoD Model
 (Department of Defence)
-![Dod Model](dod_model.png)
+![Dod Model](img/dod_model.png)
 
 # Layer encapsulation
 

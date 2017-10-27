@@ -70,15 +70,15 @@ Links a machine to a hub
 
 * **Repeater**: An amplifier, only sees the voltage
 
-![Repeater](repeater.png)
+![Repeater](img/repeater.png)
 
 * **Bridge**: Receives, buffers and transmits frames, so collisions are propagated
 
-![Dumb bridge](bridge.png)
+![Dumb bridge](img/bridge.png)
 
   * __learning__ and __filtering__ bridges only send the frames that belong on the other side, other bridges just send everything.
 
-  ![Filtering bridges](filtering_bridge.png)
+  ![Filtering bridges](img/filtering_bridge.png)
 
 * **Hubs**: Are repeaters
 * **Switch**: A set of learning bridges. Worsen latency
@@ -95,7 +95,7 @@ Large buffers internally deal with congestion, preventing collisions.
 ##### Random early drop
 When the buffer is full, packets are dropped as they can't be put anywhere. To mitigate dropping 100% of the packets that can't be accommodated, the switch will start to drop packets as the buffer fills, with the chance of dropping increasing as it fills. The stations detect the dropped packets and slow down transmission.
 
-![Random early drop graph](random_early_drop.png)
+![Random early drop graph](img/random_early_drop.png)
 
 ## Token Ring/Bus
 See slide 40 [here](https://canvas.bham.ac.uk/courses/27275/files?preview=4298343)
