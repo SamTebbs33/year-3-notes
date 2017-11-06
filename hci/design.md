@@ -12,7 +12,7 @@ Getting the right design involves searching as much of the design space as possi
 ## Sketching
 Sketching is a good way of exploring alternatives and are quick and cheap. Sketches are good for conveying a design to another person and a rough sketch is clearly early in the design process, so criticism is easier.
 
-![Example sketch](sketch.png)
+![Example sketch](img/sketch.png)
 
 ### What to sketch
 * Different aspects of the interface
@@ -35,7 +35,7 @@ Sketching is a good way of exploring alternatives and are quick and cheap. Sketc
 ## Scenario based design
 A user interaction scenario is a sketch of use, it is intended to vividly capture the essence of an interaction design.
 
-![Scenario based design](scenario_based_design.png)
+![Scenario based design](img/scenario_based_design.png)
 
 * Basis for brainstorming
 * Develop alternatives
@@ -50,7 +50,7 @@ Can simulate entire application or just one interaction. Must simulate some aspe
 
 Take longer to make and are more expensive than sketches, but show more and can be more detailed.
 
-![Palm pilot prototype](palm_pilot_prototype.png)
+![Palm pilot prototype](img/palm_pilot_prototype.png)
 
 * Encourage reflection
 * Help choose between alternatives
@@ -78,8 +78,8 @@ Take longer to make and are more expensive than sketches, but show more and can 
 * A lump of wood
 * Paper and card based
   * Someone acts as the computer and responds to the user doing things with the prototype.
-  ![Paper prototype](paper_prototype.png)
-  ![Slider prototype](slider_prototype.png)
+  ![Paper prototype](img/paper_prototype.png)
+  ![Slider prototype](img/slider_prototype.png)
 * Cardboard mockup
 * Piece of software with limited functionality
 * Wizard of Oz
@@ -98,4 +98,4 @@ Choosing a type depends on what needs to be conveyed
 
 ### Prototype process
 
-![Prototype process](prototype_process.png)
+![Prototype process](img/prototype_process.png)

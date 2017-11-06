@@ -1,4 +1,4 @@
-![Iterative cycle](iterative_cycle.png)
+![Iterative cycle](img/iterative_cycle.png)
 
 # Requirement
 Unambiguous Statement specifying what a product should do or how it should perform.
@@ -23,7 +23,7 @@ Those gathering research may not be the same people who build the system, so a c
 * A fictitious character representing a member of a target user group
 * Not real people, but their characteristics should be based on data from the gathering stage
 
-![Persona example](persona_example.png)
+![Persona example](img/persona_example.png)
 
 * **Purpose**:
   * Capture understanding of target audience to drive design
@@ -51,11 +51,11 @@ A persona's requirements will be prioritised over those of a persona lower in th
   3. Identify significant behaviour patterns
 
   Example
-  ![User segmentation example](user_segmentation.png)
+  ![User segmentation example](img/user_segmentation.png)
 
-  ![User segmentation groups](user_segmentation_groups.png)
+  ![User segmentation groups](img/user_segmentation_groups.png)
 
-  ![User segmentation activities](user_segmentation_activities.png)
+  ![User segmentation activities](img/user_segmentation_activities.png)
 
 3. Create personas
   * Synthesise characteristics and significant goals
