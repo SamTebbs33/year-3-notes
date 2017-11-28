@@ -12,5 +12,6 @@
 | Booking.com | ? | +44 (0) 20 8612 8000 (office hours), customer.service@booking.com | ? |  |
 | Frontier | Tools Programmer, Gameplay Programmer | http://frontier.co.uk | / | Contact form sent |
 | Citrix | Technology Industrial Placement | brightnetwork | 1st December | X |
+| Monzo | Backend Engineer | https://boards.greenhouse.io/monzo/jobs/883167#.Wh1GpLSFh24 | / |  |
 
 Bloodhound challenge: https://tiny.cc/OracleInternshipComp
