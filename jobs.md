@@ -10,5 +10,7 @@
 | New Voice Media | Software Development, Automation | tech@newvoicemedia.com |  | X |
 | Morgan Stanley | Infrastructure and Development | http://www.morganstanley.com/people-opportunities/students-graduates/programs/technology/industrial-placement-emea/ | |  |
 | Booking.com | ? | +44 (0) 20 8612 8000 (office hours), customer.service@booking.com | ? |  |
+| Frontier | Tools Programmer, Gameplay Programmer | http://frontier.co.uk | / | Contact form sent |
+| Citrix | Technology Industrial Placement | brightnetwork | 1st December | X |
 
 Bloodhound challenge: https://tiny.cc/OracleInternshipComp
