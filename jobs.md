@@ -1,6 +1,7 @@
 | Company | Positions | Site | Deadline | Applied |
 | ------- | --------- | ---- | -------- | ------- |
-| Amazon | AWS, Devices, Video, Operations Software Dev | http://amazon.jobs | Feb 2018 |  |
+| Amazon | AWS, Devices, Video, Operations Software Dev | http://amazon.jobs | Feb 2018 | X |
+| Google | Software Engineering | https://careers.google.com/jobs#!t=jo&jid=/google/software-engineering-intern-research-1-13-st-giles-high-st-london-uk-2877610262& | 1st December | X |
 | Atos | Software Development | https://atos.net/en-gb/united-kingdom/careers-uk/internship-uk/technical-internship-schemes-uk/software-development-internship-uk | 6th November | - |
 | Leidos | ? | talent.uk@leidos.com with CV and relevant projects | |  |
 | BAE | Software and Systems Engineering | https://baesystems.gti.co.uk/Candidate/CandIndex.asp | 31st October |  |
