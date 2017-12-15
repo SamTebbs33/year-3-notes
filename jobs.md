@@ -10,5 +10,6 @@
 | New Voice Media | Software Development, Automation | tech@newvoicemedia.com |  | X |
 | Morgan Stanley | Infrastructure and Development | http://www.morganstanley.com/people-opportunities/students-graduates/programs/technology/industrial-placement-emea/ | |  |
 | Booking.com | ? | +44 (0) 20 8612 8000 (office hours), customer.service@booking.com | ? |  |
+| Microsoft | Development | https://careers.microsoft.com/students/apply?rg=GB&jf=9&el=2&jt=1&jt=2 | ? | X |
 
 Bloodhound challenge: https://tiny.cc/OracleInternshipComp
