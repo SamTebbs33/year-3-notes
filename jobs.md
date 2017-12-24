@@ -17,5 +17,6 @@
 | Microsoft | Development | https://careers.microsoft.com/students/apply?rg=GB&jf=9&el=2&jt=1&jt=2 | ? | X |
 | Metaswitch | Software Engineering | https://www.brightnetwork.co.uk/graduate-jobs/metaswitch/software-engineering-internship | ? | X |
 | Cisco | Software Engineering | https://jobs.cisco.com/jobs/ProjectDetail/Software-Engineering-Placement-Intern-UK/1212764?user=1 | ? | X |
+| EY | Technology consulting | http://ukcareers.ey.com/graduates/our-programmes/undergraduate-programmes/industrial-placement-programme/technology-ip?src=JB-25942 | February | x |
 
 Bloodhound challenge: https://tiny.cc/OracleInternshipComp
