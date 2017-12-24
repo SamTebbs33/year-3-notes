@@ -15,5 +15,6 @@
 | Citrix | Technology Industrial Placement | brightnetwork | 1st December | X |
 | Monzo | Backend Engineer | https://boards.greenhouse.io/monzo/jobs/883167#.Wh1GpLSFh24 | / |  |
 | Microsoft | Development | https://careers.microsoft.com/students/apply?rg=GB&jf=9&el=2&jt=1&jt=2 | ? | X |
+| Metaswitch | Software Engineering | https://www.brightnetwork.co.uk/graduate-jobs/metaswitch/software-engineering-internship | ? | X |
 
 Bloodhound challenge: https://tiny.cc/OracleInternshipComp
