@@ -7,6 +7,7 @@
 | BAE | Software and Systems Engineering | https://baesystems.gti.co.uk/Candidate/CandIndex.asp | 31st October |  |
 | Asos | Software Engineering | https://goo.gl/5CKwrE talent@asos.com | 1st December | X |
 | Autodesk | Software Engineering | https://www.autodesk.com/careers | ? | X |
+| Atos | Software Development | https://atos.net/en-gb/united-kingdom/careers-uk/internship-uk/technical-internship-schemes-uk/software-development-internship-uk | 8th January | X |
 | IBM | Software Development | https://goo.gl/eDqSN9 | 31st December |  |
 | New Voice Media | Software Development, Automation | tech@newvoicemedia.com |  | X |
 | Morgan Stanley | Infrastructure and Development | http://www.morganstanley.com/people-opportunities/students-graduates/programs/technology/industrial-placement-emea/ | |  |
