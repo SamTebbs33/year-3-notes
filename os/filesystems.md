@@ -50,7 +50,7 @@ With HDDs, the time used to seek and for latency dwarfs the transfer time -> Dis
 ## Disk scheduling
 The standard scheduling algorithms apply, adapted to the special situation.
 
-* **FCFS**: Easiest to implement but may require lots of head movements (which are expensive).
+* **First come first serve (FCFS)**: Easiest to implement but may require lots of head movements (which are expensive).
 * **Shortest seek time first**: Select job requiring minimal head movement.
   * May cause starvation
   * Tracks in the middle of the disk are preferred
