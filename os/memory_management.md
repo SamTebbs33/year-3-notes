@@ -27,7 +27,7 @@ Strategies for choosing holes of memory:
 ## Paging
 Memory is split into segments of the same size, avoiding external fragmentation. The translation between logical addresses and physical addresses is done via a page table. De-fragmentation is simpler as segments can be moved around since they are all the same size (page table is updated to point to new physical address). By default, one segment is assigned to one process.
 
-![Paging structure](paging.jpg)
+![Paging structure](img/paging.jpg)
 
 ## Segmentation
 Dividing memory according to its usage by programs:
