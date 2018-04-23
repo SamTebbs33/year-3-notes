@@ -39,7 +39,7 @@ There are various, often conflicting, criteria to measure the success of schedul
 * **Shortest job first**:
   Next job chosen is the one with the shortest CPU burst time (shortest CPU time before the next I/O operation). A perfect algorithm isn't implementable, but one can be implemented that uses the smallest average burst time. The burst time can be predicted by extrapolating from previous behaviour by weighting recent times more than older ones.
 
-  ![Shortest job first extrapolation maths](sjf_extrapolation.png)
+  ![Shortest job first extrapolation maths](img/sjf_extrapolation.png)
 
   Where
   * \t(n + 1) is the predicted next burst time
@@ -62,7 +62,7 @@ There are various, often conflicting, criteria to measure the success of schedul
   * Batch processes
 
   Another way if setting up the sub-queues is according to length of CPU burst time
-  ![Burst time queues](burst_time_queues.png)
+  ![Burst time queues](img/burst_time_queues.png)
 
 ### Scheduling in multiprocessor systems
 All processors are identical and can be scheduled independently and can either have separate or a shared ready queue.
