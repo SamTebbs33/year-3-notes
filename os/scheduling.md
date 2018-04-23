@@ -5,7 +5,7 @@ Composed of queues, between which processes migrate.
 * **Ready queue**: all processes in main memory ready and waiting to execute
 * **Device queues**: processes waiting for I/O device
 
-![Scheduling workflow](scheduling_workflow.png)
+![Scheduling workflow](img/scheduling_workflow.png)
 
 Types of schedulers
 * **Short term**: Invoked frequently (milliseconds), must be fast
