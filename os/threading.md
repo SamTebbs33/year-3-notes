@@ -4,7 +4,7 @@ A thread is an execution state of a process
 * Values of CPU registers
 * Stack to hold local variables
 
-![Thread structure](thread_structure.png)
+![Thread structure](img/thread_structure.png)
 
 ### Benefits of threads
 * **Responsiveness**: user interaction in a GUI can be responded to by a separate thread from the one doing computation
@@ -66,16 +66,16 @@ A particular kernel may not support multi-threaded processes though it is still 
 * **One to one**: each user level thread maps to a kernel thread
   * Switching between threads requires a context switch by the kernel
 
-  ![One to one threading](one_to_one.png)
+  ![One to one threading](img/one_to_one.png)
 
 * **Many to many**: Allows many user level threads to be mapped to many kernel threads
   * Best of both worlds, allows OS to create a sufficient number of kernel threads
 
-  ![Many to many threading](many_to_many.png)
+  ![Many to many threading](img/many_to_many.png)
 
 * **Two level**: Similar to many to many but allows a user level thread to be bound directly to a kernel thread in a one to one way
 
-![Two level threading](two_level.png)
+![Two level threading](img/two_level.png)
 
 ### Thread cancellation
 * **Asynchronous cancellation**: terminates the target thread immediately. Useful as a last resort if a thread will not stop
