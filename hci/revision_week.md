@@ -1,5 +1,4 @@
-Not examined:
-  * The two industry speakers' content
+* The two industry speakers' content isn't examined
 * Core reading (labelled as *core*) is examined
 * Use examples from reading and lecture material
   * Be aware of case studies and understand the issues, aims, outcomes and conclusions from study
